@@ -6,6 +6,16 @@ All notable changes to this project will be documented in this file.
 
 ## Changed
 
+## 0.1.5 - 2022-04-05
+
+### Changes
+- Initiated rewrite of code.
+- Recreated base source from Create React App.
+- Added BlueprintJS
+- Added Material-UI Core
+- Implemented Changelog display functionality
+
+
 ## 0.1.3 - 2018-12-22
 
 ### Added
