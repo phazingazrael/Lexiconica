@@ -11,10 +11,11 @@ All notable changes to this project will be documented in this file.
 ### Changes
 - Initiated rewrite of code.
 - Recreated base source from Create React App.
-- Added BlueprintJS
-- Added Material-UI Core
+- Added [BlueprintJS](https://www.blueprintjs.com/)
+- Added [Material-ui](https://www.mui.com/)
+- Added [Markdown-to-JSX](https://www.github.com/probablyup/markdown-to-jsx) by ProbablyUp
 - Implemented Changelog display functionality
-
+- Re-implemented base layout of application and basic routing for pages.
 
 ## 0.1.3 - 2018-12-22
 
@@ -36,7 +37,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Added [RPG Awesome](https://nagoshiashumari.github.io/Rpg-Awesome/)
-- Added [Material-ui](https://material-ui.com/)
+- Added [Material-ui](https://mui.com/)
 
 ## 0.1.0 - 2018-11-20
 
