@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## Planned features
+
+#### Main Categories:
+
+- Characters/party
+- Session Notes
+- World locations
+  - Countries
+    - Towns
+- Plot line formation
+- More?
+
+Key features:
+
+- Have it so that any creature / item / magic item when hovered over shows a stat Block
+  - if clicked it should expand and show the stat block until it or another is clicked, possibly even a popout window.
+- easily relate specific 'pages' to others, ex: if character has a connection to a faction have it click to link to said faction.
+- encounter builder including an automated CR calculation that then generates Loot and displays it.
+
+### TODO list
+
+- setup desired layouts for various pages.
+- generate a monster population with bootstrapped tiles
+- mirror layout for character sheets.
+
 ## Unreleased
 
 ## Changed
@@ -9,6 +34,7 @@ All notable changes to this project will be documented in this file.
 ## 0.1.5 - 2022-04-05
 
 ### Changes
+
 - Initiated rewrite of code.
 - Recreated base source from Create React App.
 - Added [BlueprintJS](https://www.blueprintjs.com/)
@@ -45,28 +71,3 @@ All notable changes to this project will be documented in this file.
 
 - Added [statblock5e](https://github.com/Valloric/statblock5e) by Valloric
 - Added a basic js/html Character sheet from codepen [here](https://codepen.io/anon/pen/dWKdvm) from [Reddit](https://www.reddit.com/r/dndnext/comments/6b8gv5/5e_character_sheet_with_pure_htmlcss/dhmc7o6) by [/u/ConDar15](https://www.reddit.com/user/ConDar15)
-
-## Planned features
-
-#### Main Categories:
-
-- Characters/party
-- Session Notes
-- World locations
-  - Countries
-    - Towns
-- Plot line formation
-- More?
-
-Key features:
-
-- Have it so that any creature / item / magic item when hovered over shows a stat Block
-  - if clicked it should expand and show the stat block until it or another is clicked, possibly even a popout window.
-- easily relate specific 'pages' to others, ex: if character has a connection to a faction have it click to link to said faction.
-- encounter builder including an automated CR calculation that then generates Loot and displays it.
-
-### TODO list
-
-- setup desired layouts for various pages.
-- generate a monster population with bootstrapped tiles
-- mirror layout for character sheets.
