@@ -8,7 +8,6 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Nav from "./components/Nav";
-import DataRender from "./components/dataRender";
 
 function App() {
   return (
@@ -39,7 +38,6 @@ function App() {
                   <Route path="/" element={<ChangeLog />}>
                     <Route path="characters" element={<Characters />} />
                     <Route path="changelog" element={<ChangeLog />} />
-                    <Route path="/locations" element={<DataRender />} />
                   </Route>
                 </Routes>
               </div>
