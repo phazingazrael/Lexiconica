@@ -10,6 +10,7 @@ const srd = dnd.data;
 //console.log("Aboleth HP "+aboleth.hit_points);
 //console.log(srd);
 
+
 function MonsterTile() {
   return (
     <div>
@@ -29,7 +30,7 @@ function MonsterTile() {
                 width: 140,
               }}
             >
-              <Typography>{item.name}</Typography>
+              <Typography data-source={item.name}>{item.name}</Typography>
             </Paper>
           </Grid>
         ))}

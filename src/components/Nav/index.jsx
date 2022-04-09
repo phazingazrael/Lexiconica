@@ -23,7 +23,7 @@ function Name() {
         </ListItem>
       </Link>
       <Divider />
-      <Link to={"/character"}>
+      <Link to={"/characters"}>
         <ListItem button>
           <ListItemIcon>
             <ContactPageOutlinedIcon />

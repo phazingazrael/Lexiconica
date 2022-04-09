@@ -10,11 +10,15 @@ import Typography from "@mui/material/Typography";
 import Nav from "./components/Nav";
 import MonsterTile from "./components/monsterTile";
 
-const dnd = require('dnd5-srd');
+const dnd = require("dnd5-srd");
 //const monsters = dnd.data.monsters;
 const srd = dnd.data;
 //console.log("Aboleth HP "+aboleth.hit_points);
-console.log(srd.monsters);
+//console.log(srd.monsters);
+
+const nonSRD = require("./data/index.js");
+//console.log("5e Tools Data below");
+//console.log(nonSRD);
 
 function App() {
   return (
@@ -42,9 +46,10 @@ function App() {
             <Paper>
               <div className="content">
                 <Routes>
-                  <Route path="/" element={<MonsterTile />}>
+                  <Route path="/" >
                     <Route path="characters" element={<Characters />} />
                     <Route path="changelog" element={<ChangeLog />} />
+                    <Route path="locations" element={<MonsterTile />} />
                   </Route>
                 </Routes>
               </div>
