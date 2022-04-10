@@ -9,14 +9,16 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Nav from "./components/Nav";
 import MonsterTile from "./components/monsterTile";
+import LocationList from "./components/locationList";
 
+//Begin import of 5e SRD data from the dnd5-srd package.
 const dnd = require("dnd5-srd");
-//const monsters = dnd.data.monsters;
 const srd = dnd.data;
-//console.log("Aboleth HP "+aboleth.hit_points);
-//console.log(srd.monsters);
+console.log(srd);
 
-const nonSRD = require("./data/index.js");
+//
+//5e.tools data imported below. Still needs refining to work properly with this current system.
+//const nonSRD = require("./data/index.js");
 //console.log("5e Tools Data below");
 //console.log(nonSRD);
 
@@ -24,7 +26,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Grid container spacing={24} className="wrapper">
+        <Grid container spacing={2} className="wrapper">
           <Grid className="header" item xs={12}>
             <Paper>
               <AppBar position="static" color="default">
@@ -46,11 +48,26 @@ function App() {
             <Paper>
               <div className="content">
                 <Routes>
-                  <Route path="/" >
-                    <Route path="characters" element={<Characters />} />
-                    <Route path="changelog" element={<ChangeLog />} />
-                    <Route path="locations" element={<MonsterTile />} />
-                  </Route>
+                  <Route
+                    path="/"
+                    element={
+                      <div>
+                        <p>
+                          <img
+                            src="https://raw.githubusercontent.com/phazingazrael/phazingazrael/main/github-metrics.svg"
+                            alt="github metrics for developer"
+                          ></img>
+                        </p>
+                      </div>
+                    }
+                  />
+                  <Route path="characters" element={<Characters />} />
+                  <Route path="changelog" element={<ChangeLog />} />
+                  <Route path="encounters" element={<MonsterTile />} />
+                  <Route
+                    path="locations"
+                    element={<LocationList data={{ srd }} />}
+                  />
                 </Routes>
               </div>
             </Paper>
