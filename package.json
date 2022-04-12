@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@blueprintjs/core": "^4.1.2",
-    "@craco/craco": "^5.9.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.6.1",
@@ -15,6 +14,7 @@
     "buffer": "^6.0.3",
     "dnd-character-sheets": "^1.0.3",
     "dnd5-srd": "^1.0.0",
+    "electron-squirrel-startup": "^1.0.0",
     "markdown-to-jsx": "^7.1.7",
     "path": "^0.12.7",
     "process": "^0.11.10",
@@ -31,11 +31,16 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject",
-    "updater": "ncu -u"
+    "start-forge": "electron-forge start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "updater": "ncu -u",
+    "dev": "concurrently -k \"npm start\" \"npm:electron\"",
+    "electron": "wait-on tcp:3000 && electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +63,43 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/plugin-proposal-decorators": "^7.17.9",
-    "@babel/plugin-transform-runtime": "^7.17.0"
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-deb": "^6.0.0-beta.63",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "concurrently": "^7.1.0",
+    "electron": "^18.0.3",
+    "electron-is-dev": "^2.0.0",
+    "wait-on": "^6.0.1"
+  },
+  "main": "public/electron.js",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "lexiconica"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
   }
 }
