@@ -27,6 +27,9 @@ Key features:
 - generate a monster population with bootstrapped tiles
 - mirror layout for character sheets.
 
+### Feature ideas list
+- export data to comprehensive pdf with auto generated table of contents
+
 ---
 
 ## Unreleased
