@@ -2,6 +2,11 @@
   "name": "lexiconica",
   "version": "0.1.5",
   "private": true,
+  "author": {
+    "name": "Phazingazrael",
+    "email": "phazedverse@gmail.com",
+    "url": "http://phazingazrael.github.io"
+  },
   "dependencies": {
     "@blueprintjs/core": "^4.1.2",
     "@emotion/react": "^11.9.0",
