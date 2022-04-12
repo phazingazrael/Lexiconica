@@ -44,6 +44,14 @@ Key features:
 - Added [Markdown-to-JSX](https://www.github.com/probablyup/markdown-to-jsx) by ProbablyUp
 - Implemented Changelog display functionality
 - Re-implemented base layout of application and basic routing for pages.
+- Modified layout to include current list of potential pages. 
+- Implemented 5E SRD data import and display for some things.
+- Created layout list display, currently rendering off SRD Monster data.
+- Created Monster Tile display, Currently a simple square with monster's name.
+- Created specific display route for Changelog, activation location to change.
+- Added [React-Social-Icons](https://github.com/jaketrent/react-social-icons) by jaketrent.
+- Added [Fantasy-Content-Generator](https://github.com/thomascgray/fantasy-content-generator) by thomascgray.
+- Added [DND-Character-Sheets](https://github.com/DarylBuckle/dnd-character-sheets) by DarylBuckle and generated basic data template.
 
 ## 0.1.3 - 2018-12-22
 
