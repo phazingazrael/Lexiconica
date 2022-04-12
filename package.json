@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "private": true,
   "description": "Lexiconica is a 5th edition Dungeons & Dragons campaign management utility developed to be SRD Compliant.",
-  "homepage": "phazingazrael.github.io",
+  "homepage": "http://lexiconica.vercel.app",
   "author": {
     "name": "Phazingazrael",
     "email": "phazedverse@gmail.com",
