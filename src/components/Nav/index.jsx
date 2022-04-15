@@ -9,17 +9,16 @@ import Divider from "@mui/material/Divider";
 import MapIcon from "@mui/icons-material/MapOutlined";
 import HomeIcon from "@mui/icons-material/HomeOutlined";
 import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
-import NoiseAwareOutlinedIcon from "@mui/icons-material/NoiseAwareOutlined";
 import PublicIcon from "@mui/icons-material/PublicOutlined";
 import ContactsIcon from "@mui/icons-material/ContactsOutlined";
 import GroupIcon from "@mui/icons-material/GroupOutlined";
 import FamilyRestroomIcon from "@mui/icons-material/FamilyRestroomOutlined";
 import MenuBookOutlinedIcon from "@mui/icons-material/MenuBookOutlined";
 import AssignmentLateOutlinedIcon from "@mui/icons-material/AssignmentLateOutlined";
-import HistoryEduOutlinedIcon from '@mui/icons-material/HistoryEduOutlined';
-import ArchitectureOutlinedIcon from '@mui/icons-material/ArchitectureOutlined';
-import TodayOutlinedIcon from '@mui/icons-material/TodayOutlined';
-import ApiOutlinedIcon from '@mui/icons-material/ApiOutlined';
+import HistoryEduOutlinedIcon from "@mui/icons-material/HistoryEduOutlined";
+import ArchitectureOutlinedIcon from "@mui/icons-material/ArchitectureOutlined";
+import TodayOutlinedIcon from "@mui/icons-material/TodayOutlined";
+import ApiOutlinedIcon from "@mui/icons-material/ApiOutlined";
 
 function Name() {
   return (
@@ -30,15 +29,6 @@ function Name() {
             <HomeIcon />
           </ListItemIcon>
           <ListItemText primary="Home" />
-        </ListItem>
-      </Link>
-      <Divider />
-      <Link to={"/encounters"}>
-        <ListItem button>
-          <ListItemIcon>
-            <NoiseAwareOutlinedIcon />
-          </ListItemIcon>
-          <ListItemText primary="Encounters" />
         </ListItem>
       </Link>
       <Divider />

@@ -11,17 +11,17 @@ import Typography from "@mui/material/Typography";
 import Nav from "./components/Nav";
 import MonsterTile from "./components/monsterTile";
 import LocationList from "./components/locationList";
+//import { nanoid } from "nanoid";
 
 
 
 //Begin import of 5e SRD data from the dnd5-srd package.
-const dnd = require("dnd5-srd");
-const srd = dnd.data;
-console.log(srd);
+const srd = require("./data/srd/");
+//console.log(srd);
 
 //
 //5e.tools data imported below. Still needs refining to work properly with this current system.
-//const nonSRD = require("./data/index.js");
+//const nonSRD = require("./data/usrd/index.js");
 //console.log("5e Tools Data below");
 //console.log(nonSRD);
 
