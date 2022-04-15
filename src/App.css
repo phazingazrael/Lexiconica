@@ -1,6 +1,5 @@
 .App {
   height: max-content;
-  
 }
 
 .wrapper {
@@ -21,11 +20,11 @@
 
 .nav {
   text-align: left;
+  margin-left: 0.5vw !important;
 }
 
 .contentWrapper {
-  margin-right: 5px !important;
-  
+  margin-right: 0.5vw !important;
   max-height: 85vh;
 }
 
@@ -38,7 +37,9 @@
   overflow: auto;
 }
 
-.testWrap{
-  width: 100%;
+.footer {
+  width: 8.5vw;
+  position: absolute;
+  bottom: 0.5vw;
+  right: 0.5vw;
 }
-

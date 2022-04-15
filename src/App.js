@@ -11,7 +11,9 @@ import Typography from "@mui/material/Typography";
 import Nav from "./components/Nav";
 import MonsterTile from "./components/monsterTile";
 import LocationList from "./components/locationList";
+import Chip from "@mui/material/Chip";
 //import { nanoid } from "nanoid";
+import appInf from "../package.json";
 
 //Begin import of 5e SRD data from the dnd5-srd package.
 const srd = require("./data/srd/");
@@ -41,8 +43,7 @@ function App() {
               <AppBar position="static" color="default">
                 <Toolbar>
                   <Typography variant="h6" color="inherit">
-                    <Link to={"/changelog"}>Campaign Manager</Link> - Campaign
-                    name here
+                    Campaign Manager - Campaign name here
                   </Typography>
                 </Toolbar>
               </AppBar>
@@ -92,6 +93,11 @@ function App() {
             </Paper>
           </Grid>
         </Grid>
+        <div className="footer">
+          <Link to={"/changelog"}>
+            <Chip label={"Lexiconica v " + appInf.version} />
+          </Link>
+        </div>
       </div>
     </BrowserRouter>
   );
