@@ -13,8 +13,6 @@ import MonsterTile from "./components/monsterTile";
 import LocationList from "./components/locationList";
 //import { nanoid } from "nanoid";
 
-
-
 //Begin import of 5e SRD data from the dnd5-srd package.
 const srd = require("./data/srd/");
 //console.log(srd);
@@ -25,12 +23,20 @@ const srd = require("./data/srd/");
 //console.log("5e Tools Data below");
 //console.log(nonSRD);
 
+// xs, extra-small: 0px
+// sm, small: 600px
+// md, medium: 900px
+// lg, large: 1200px
+// xl, extra-large: 1536px
+
+// xs={} sm={} md={} lg={} xl={}
+
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Grid container spacing={2} className="wrapper">
-          <Grid className="header" item xs={12}>
+          <Grid className="header" item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Paper>
               <AppBar position="static" color="default">
                 <Toolbar>
@@ -42,12 +48,22 @@ function App() {
               </AppBar>
             </Paper>
           </Grid>
-          <Grid item xs={4} className="nav">
+        </Grid>
+        <Grid container spacing={2} className="wrapper">
+          <Grid item xs={3} sm={3} md={3} lg={3} xl={2} className="nav">
             <Paper>
               <Nav />
             </Paper>
           </Grid>
-          <Grid item xs={8} className="contentWrapper">
+          <Grid
+            item
+            xs={8}
+            sm={true}
+            md={true}
+            lg={true}
+            xl={true}
+            className="contentWrapper"
+          >
             <Paper>
               <div className="content">
                 <Routes>
