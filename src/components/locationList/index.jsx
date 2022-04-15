@@ -21,8 +21,7 @@ import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import LastPageIcon from "@mui/icons-material/LastPage";
 
-const dnd = require("dnd5-srd");
-const srd = dnd.data;
+const srd = require("../../data/srd");
 const monsters = srd.monsters;
 
 const rows = monsters;

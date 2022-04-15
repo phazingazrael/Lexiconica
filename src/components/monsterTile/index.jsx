@@ -4,11 +4,8 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import "./index.css";
 
-const dnd = require("dnd5-srd");
-//const monsters = dnd.data.monsters;
-const srd = dnd.data;
-//console.log("Aboleth HP "+aboleth.hit_points);
-//console.log(srd);
+
+const srd = require("../../data/srd");
 
 
 function MonsterTile() {

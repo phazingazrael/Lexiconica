@@ -36,6 +36,19 @@ Key features:
 
 ## Changed
 
+## 0.1.5b - 2022-04-14
+
+### Changes
+- Modified layout to be more responsive to screen sizing.
+- Removed unnecessary packages.
+- Moved Development packages to the correct section.
+- Organization of package.json file.
+- Relocated the Changelog link location and implemented package.json version display for changelog link.
+
+### Planned Steps
+- Implement some form of backend / api for database. Likely using Express.
+- Implement base data model for site.
+- Begin designing data model for each additional item within the site.
 ## 0.1.5 - 2022-04-05
 
 ### Changes

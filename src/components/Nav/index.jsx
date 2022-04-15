@@ -51,7 +51,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -64,7 +64,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -77,7 +77,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -90,7 +90,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -103,7 +103,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -125,7 +125,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -138,7 +138,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -151,7 +151,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -164,7 +164,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
@@ -177,7 +177,7 @@ function Name() {
           <ListItem
             sx={{
               pl: 4,
-              "padding-left": { xs: "16px", sm: "16px", md: "32px" },
+              paddingLeft: { xs: "16px", sm: "16px", md: "32px" },
             }}
           >
             <ListItemIcon sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
