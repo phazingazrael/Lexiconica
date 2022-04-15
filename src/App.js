@@ -33,6 +33,10 @@ const srd = require("./data/srd/");
 
 // xs={} sm={} md={} lg={} xl={}
 
+function handleClick(){
+  
+}
+
 function App() {
   return (
     <BrowserRouter>
@@ -95,7 +99,7 @@ function App() {
         </Grid>
         <div className="footer">
           <Link to={"/changelog"}>
-            <Chip label={"Lexiconica v " + appInf.version} />
+            <Chip onClick={handleClick} label={"Lexiconica v " + appInf.version} />
           </Link>
         </div>
       </div>
