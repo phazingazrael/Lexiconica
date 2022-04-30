@@ -1,0 +1,631 @@
+{
+  "ac": "",
+  "additionalFeatures": "",
+  "additionalFeatures2": "",
+  "age": "",
+  "alignment": "",
+  "allies": "",
+  "allies2": "",
+  "appearance": "",
+  "attacks": [
+    {
+      "name": "",
+      "bonus": "",
+      "damage": ""
+    },
+    {
+      "name": "",
+      "bonus": "",
+      "damage": ""
+    },
+    {
+      "name": "",
+      "bonus": "",
+      "damage": ""
+    }
+  ],
+  "attacksText": "",
+  "background": "",
+  "backstory": "",
+  "bonds": "",
+  "cantrips": [
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
+  "cha": "",
+  "chaSave": "",
+  "classLevel": "",
+  "con": "",
+  "conSave": "",
+  "conSaveChecked": false,
+  "cp": "",
+  "dciNo": "",
+  "dex": "",
+  "dexSave": "",
+  "dexSaveChecked": false,
+  "ep": "",
+  "equipment": "",
+  "equipment2": "",
+  "eyes": "",
+  "faction": "",
+  "factionImg": "",
+  "factionRank": "",
+  "featuresTraits": "",
+  "flaws": "",
+  "gp": "",
+  "hair": "",
+  "height": "",
+  "hitDice": "",
+  "hitDiceMax": "",
+  "hp": "",
+  "ideals": "",
+  "init": "",
+  "inspiration": "",
+  "int": "",
+  "intSave": "",
+  "lvl1SpellSlotsUsed": "",
+  "lvl1Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl2SpellSlotsUsed": "",
+  "lvl2Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl3SpellSlotsUsed": "",
+  "lvl3Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl4SpellSlotsUsed": "",
+  "lvl4Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl5SpellSlotsUsed": "",
+  "lvl5Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl6SpellSlotsUsed": "",
+  "lvl6Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl7SpellSlotsUsed": "",
+  "lvl7Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl8SpellSlotsUsed": "",
+  "lvl8Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "lvl9SpellSlotsUsed": "",
+  "lvl9Spells": [
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    },
+    {
+      "name": "",
+      "prepared": false
+    }
+  ],
+  "maxHp": "",
+  "name": "",
+  "otherProficiencies": "",
+  "passivePerception": "",
+  "personalityTraits": "",
+  "playerName": "",
+  "pp": "",
+  "preparedSpellsTotal": "0",
+  "proficiencyBonus": "",
+  "race": "",
+  "skillAcrobatics": "",
+  "skillAnimalHandling": "",
+  "skillArcana": "",
+  "skillAthletics": "",
+  "skillDeception": "",
+  "skillHistory": "",
+  "skillInsight": "",
+  "skillIntimidation": "",
+  "skillInvestigation": "",
+  "skillMedicine": "",
+  "skillNature": "",
+  "skillPerception": "",
+  "skillPerformance": "",
+  "skillPersuasion": "",
+  "skillPersuasionChecked": true,
+  "skillReligion": "",
+  "skillSlightOfHand": "",
+  "skillStealth": "",
+  "skillSurvival": "",
+  "skin": "",
+  "sp": "",
+  "speed": "",
+  "spellAttackBonus": "",
+  "spellSaveDC": "",
+  "spellcastingClass": "",
+  "str": "",
+  "strSave": "",
+  "tempHp": "",
+  "totalNonConsumableMagicItems": "",
+  "treasure": "",
+  "treasure2": "",
+  "weight": "",
+  "wis": "",
+  "wisSave": "",
+  "xp": ""
+}
