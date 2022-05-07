@@ -12,26 +12,32 @@ import Nav from "./components/Nav";
 import MonsterTile from "./components/monsterTile";
 import LocationList from "./components/locationList";
 import Chip from "@mui/material/Chip";
+
 //import { nanoid } from "nanoid";
 import appInf from "../package.json";
 
 //Begin import of 5e SRD data from the dnd5-srd package.
 const srd = require("./data/srd/");
-//console.log(srd);
-
-//
 //5e.tools data imported below. Still needs refining to work properly with this current system.
-//const nonSRD = require("./data/usrd/");
-//console.log("5e Tools Data below");
-//console.log(nonSRD);
+const usrd = require("./data/usrd/");
+//defaultCampaign Data here
+const defaultCampaign = require('./data/defaultCampaign.json');
 
-// xs, extra-small: 0px
-// sm, small: 600px
-// md, medium: 900px
-// lg, large: 1200px
-// xl, extra-large: 1536px
+var store = require('store');
 
-// xs={} sm={} md={} lg={} xl={}
+if (store.get('srd') === undefined) {
+  console.log("NO SRD");
+  store.set('srd', srd);
+}else{
+  console.log("SRD:"+JSON.stringify(store.get('srd')) );
+}
+
+if (store.get('campaign') === undefined) {
+  console.log("NO CAMPAIGN");
+  store.set('campaign', defaultCampaign);
+}else{
+  console.log("Campaign: "+ JSON.stringify(store.get('campaign')));
+}
 
 function handleClick(){
 

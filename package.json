@@ -31,8 +31,7 @@
   "engines": {
     "node": "16.x"
   },
-  "config": {
-  },
+  "config": {},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -72,6 +71,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "react-social-icons": "^5.13.0",
+    "store": "^2.0.12",
     "underscore": "^1.13.3",
     "web-vitals": "^2.1.4"
   },
