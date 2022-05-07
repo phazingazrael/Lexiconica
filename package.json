@@ -7,6 +7,9 @@
     "express",
     "create-react-app"
   ],
+  "engines": {
+    "node": "16.x"
+  },
   "main": "client/public/electron.js",
   "author": {
     "name": "Phazingazrael",
