@@ -1,0 +1,51 @@
+{
+    "title": "Example Campaign",
+    "author": "",
+    "world": [
+        {
+            "name": "Players",
+            "description": "Player Characters within the campaign",
+            "players": []
+        },
+        {
+            "name": "Locations",
+            "description": "World Locations"
+        },
+        {
+            "name": "NPCs",
+            "description": "Non-Player Characters within the campaign",
+            "npcs": []
+        },
+        {
+            "name": "Organizations",
+            "description": "Any Factions or Organizations"
+        },
+        {
+            "name": "Families",
+            "description": "NPC Or Player Families and their connections"
+        }
+    ],
+    "campaign": [
+        {
+            "name": "Quests",
+            "description": "Player Characters within the campaign"
+        },
+        {
+            "name": "Notes",
+            "description": "Player Characters within the campaign"
+        },
+        {
+            "name": "Items",
+            "description": "Player Characters within the campaign"
+        },
+        {
+            "name": "Events",
+            "description": "Player Characters within the campaign"
+        },
+        {
+            "name": "Abilities",
+            "description": "Player Characters within the campaign"
+        }
+    ],
+    "_id": "2cEorGJNe6nQ4fgU"
+}
