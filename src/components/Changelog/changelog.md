@@ -39,6 +39,12 @@ Key features:
 ## 0.1.5b - 2022-04-14
 
 ### Changes
+- Reverted to not using a ExpressJS server.
+- Begin implementing steps for Heroku deployment.
+
+## 0.1.5b - 2022-04-14
+
+### Changes
 - Modified layout to be more responsive to screen sizing.
 - Removed unnecessary packages.
 - Moved Development packages to the correct section.
