@@ -28,9 +28,6 @@
     "updater": "ncu -u",
     "version-up": "node ./node_modules/node-version-up/index.js"
   },
-  "engines": {
-    "node": "16.x"
-  },
   "config": {},
   "browserslist": {
     "production": [
