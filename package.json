@@ -17,7 +17,7 @@
     "client": "cd client && yarn start",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\" \"yarn electron client/public/electron.js\"",
     "dev:server": "cd client && yarn build && cd .. && yarn start",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build && cd client && npm install --only=dev --no-shrinkwrap",
     "server": "nodemon server.js",
     "start": "node client/server.js"
   },
