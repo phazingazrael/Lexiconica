@@ -21,29 +21,38 @@ const srd = require("./data/srd/");
 //5e.tools data imported below. Still needs refining to work properly with this current system.
 const usrd = require("./data/usrd/");
 //defaultCampaign Data here
-const defaultCampaign = require('./data/defaultCampaign.json');
+const defaultCampaign = require("./data/defaultCampaign.json");
 
-var store = require('store');
+var store = require("store");
 
-if (store.get('srd') === undefined) {
+if (store.get("srd") === undefined) {
   console.log("NO SRD");
-  store.set('srd', srd);
-}else{
-  console.log("SRD:"+JSON.stringify(store.get('srd')) );
+  store.set("srd", srd);
+} else {
+  console.log("SRD:" + JSON.stringify(store.get("srd")));
 }
 
-if (store.get('campaign') === undefined) {
+if (store.get("usrd") === undefined) {
+  console.log("NO USRD");
+  //store.set('usrd', usrd);
+  console.log("uSRD: " + usrd);
+} else {
+  console.log("uSRD:" + JSON.stringify(store.get("srd")));
+}
+
+if (store.get("campaign") === undefined) {
   console.log("NO CAMPAIGN");
-  store.set('campaign', defaultCampaign);
-}else{
-  console.log("Campaign: "+ JSON.stringify(store.get('campaign')));
+  store.set("campaign", defaultCampaign);
+} else {
+  console.log("Campaign: " + JSON.stringify(store.get("campaign")));
 }
 
-function handleClick(){
+const sysInf = store.get('sys');
 
-}
+function handleClick() {}
 
-function App() {
+function App(sysInf) {
+  
   return (
     <BrowserRouter>
       <div className="App">
@@ -105,7 +114,11 @@ function App() {
         </Grid>
         <div className="footer">
           <Link to={"/changelog"}>
-            <Chip onClick={handleClick} label={"Lexiconica v " + appInf.version} />
+          <Chip>{sysInf.time}</Chip>
+            <Chip
+              onClick={handleClick}
+              label={"Lexiconica v " + appInf.version}
+            />
           </Link>
         </div>
       </div>
