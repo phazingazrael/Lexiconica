@@ -96,6 +96,10 @@ function App(sysInf) {
                             src="https://raw.githubusercontent.com/phazingazrael/phazingazrael/main/github-metrics.svg"
                             alt="github metrics for developer"
                           ></img>
+                          <img
+                            src="https://github-readme-stats.vercel.app/api?username=phazingazrael&show_icons=true&theme=omni"
+                            alt="github metrics for developer"
+                          ></img>
                         </p>
                       </div>
                     }
