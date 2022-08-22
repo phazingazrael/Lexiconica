@@ -24,11 +24,13 @@ Key features:
 ### TODO list
 
 - setup desired layouts for various pages.
-- generate a monster population with bootstrapped tiles
+- generate a monster population with bootstrapped tiles.
 - mirror layout for character sheets.
 
 ### Feature ideas list
+
 - export data to comprehensive pdf with auto generated table of contents
+- export data to json file for portability, not reliant on same system.
 
 ---
 
@@ -36,15 +38,28 @@ Key features:
 
 ## Changed
 
-## 0.1.5b - 2022-04-14
+## 0.1.6 2022-08-20
 
 ### Changes
+
+- Added [Class Icon SVGs](https://www.reddit.com/r/DnD/comments/4t57fn/dd_5e_vector_icons/) for use in pages. Thanks to [MorePurpleMoreBetter](https://www.reddit.com/user/morepurplemorebetter/)
+- Added [SVG Spinners](https://github.com/n3r4zzurr0/svg-spinners).
+- Removed [DND-Character-Sheets](https://github.com/DarylBuckle/dnd-character-sheets).
+- Added [DND-Sheet-Component](https://github.com/luisfontes19/dnd-sheet-component).
+- Added [react-device-detect](https://github.com/duskload/react-device-detect).
+- Implemented Mobile layout with modular Nav component loading, to be expanded for all modules.
+
+## 0.1.5c - 2022-04-14
+
+### Changes
+
 - Reverted to not using a ExpressJS server.
 - Begin implementing steps for Heroku deployment.
 
 ## 0.1.5b - 2022-04-14
 
 ### Changes
+
 - Modified layout to be more responsive to screen sizing.
 - Removed unnecessary packages.
 - Moved Development packages to the correct section.
@@ -53,6 +68,7 @@ Key features:
 - Implemented base level api using [ExpressJS](https://expressjs.com/).
 
 ### Planned Steps
+
 - Implement some form of backend / api for database. Likely using Express.
 - Implement base data model for site.
 - Begin designing data model for each additional item within the site.
@@ -68,7 +84,7 @@ Key features:
 - Added [Markdown-to-JSX](https://www.github.com/probablyup/markdown-to-jsx) by ProbablyUp
 - Implemented Changelog display functionality
 - Re-implemented base layout of application and basic routing for pages.
-- Modified layout to include current list of potential pages. 
+- Modified layout to include current list of potential pages.
 - Implemented 5E SRD data import and display for some things.
 - Created layout list display, currently rendering off SRD Monster data.
 - Created Monster Tile display, Currently a simple square with monster's name.

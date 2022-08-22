@@ -20,11 +20,15 @@ import ArchitectureOutlinedIcon from "@mui/icons-material/ArchitectureOutlined";
 import TodayOutlinedIcon from "@mui/icons-material/TodayOutlined";
 import ApiOutlinedIcon from "@mui/icons-material/ApiOutlined";
 
-function Name() {
+function DeskNav(props) {
+  //let srd = props.srd;
+  //let campaign = props.campaign;
+  //let sysInf = props.sysInf;
+  
   return (
     <List
       component="nav"
-      className="navMenu"
+      className="navMenu DeskNav"
       xs={4}
       sm={4}
       md={4}
@@ -191,4 +195,4 @@ function Name() {
   );
 }
 
-export default Name;
+export default DeskNav;

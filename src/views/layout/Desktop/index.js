@@ -28,14 +28,6 @@ export function Desktop(props) {
   let SRD = props.srd;
   let SysInf = props.sysInf;
   let Campaign = props.campaign;
-  //console.log("props");
-  //console.log(props);
-  //console.log("SRD");
-  //console.log(SRD);
-  //console.log("SysInf");
-  //console.log(SysInf);
-  //console.log("Campaign");
-  //console.log(Campaign);
   return (
     <BrowserRouter>
       <div className="App">
@@ -55,7 +47,7 @@ export function Desktop(props) {
         <Grid container spacing={2} className="wrapper">
           <Grid item xs={3} sm={3} md={3} lg={3} xl={2} className="nav">
             <Paper>
-              <Nav />
+              <Nav sysInf={SysInf} srd={SRD} campaign={Campaign} />
             </Paper>
           </Grid>
           <Grid
@@ -87,9 +79,9 @@ export function Desktop(props) {
                       </div>
                     }
                   />
-                  <Route path="characters" element={<Characters />} />
+                  <Route path="characters" element={<Characters campaign={Campaign} />} />
                   <Route path="changelog" element={<ChangeLog />} />
-                  <Route path="encounters" element={<MonsterTile />} />
+                  <Route path="encounters" element={<MonsterTile srd={SRD} />} />
                   <Route
                     path="locations"
                     element={<LocationList data={SRD.monsters} />}
@@ -103,7 +95,7 @@ export function Desktop(props) {
           <Link to={"/changelog"}>
             <Chip
               onClick={handleClick}
-              label={"Lexiconica v " + appInf.version + appInf.time}
+              label={"Lexiconica v " + appInf.version}
             />
           </Link>
         </div>

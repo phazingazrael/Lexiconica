@@ -1,23 +1,24 @@
 #root {
-    width: 100vw;
+  width: 100vw;
 }
 
-.mobileBar{
-    margin-bottom: 2vh;
+.mobileBar {
+  margin-bottom: 2vh;
 }
 
-main img{    
-    width: 100% !important;
-    height: auto;
+main img {
+  width: 100% !important;
+  height: auto;
 }
 
 .App {
-    max-width: 100%
+  max-width: 100%;
 }
 
-.drawerClose {
-    float: right;
-    animation-fill-mode: forwards;
-    width: 34vw !important;
-    margin-left: 33vw;
+.navHead {
+  text-transform: capitalize;
+}
+
+.logoName {
+  margin-right: 25vw;
 }

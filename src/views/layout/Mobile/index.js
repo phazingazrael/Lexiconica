@@ -1,6 +1,6 @@
 import "./index.css";
 import * as React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -10,6 +10,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
+import Badge from "@mui/material/Badge";
 import Paper from "@mui/material/Paper";
 import CloseIcon from "@mui/icons-material/Close";
 
@@ -85,18 +86,33 @@ function Mobile(props) {
                   },
                 }}
               >
-                <Toolbar className="drawerClose">
+                <Toolbar className="navHead">
+                  <Badge badgeContent={SysInf.version} color="secondary" className="logoName">
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      sx={{ flexGrow: 1 }}
+                    >
+                      {SysInf.name}
+                    </Typography>
+                  </Badge>
                   <IconButton
+                    className="drawerClose"
                     color="inherit"
                     aria-label="close drawer"
                     edge="start"
                     onClick={handleDrawerToggle}
-                    sx={{ mr: 2, display: { sm: "none" }, textAlign: "right" }}
+                    sx={{
+                      mr: 2,
+                      display: { sm: "none" },
+                      textAlign: "right",
+                      fontSize: "13pt",
+                    }}
                   >
-                    Close <CloseIcon />
+                    <CloseIcon />
                   </IconButton>
                 </Toolbar>
-                <Nav />
+                <Nav sysInf={SysInf} srd={SRD} campaign={Campaign} />
               </Drawer>
               <Drawer
                 variant="permanent"
@@ -109,8 +125,12 @@ function Mobile(props) {
                 }}
                 open
               >
-                <Toolbar>Lexiconica</Toolbar>
-                <Nav />
+                <Toolbar className="navHead">
+                  <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    {SysInf.name}
+                  </Typography>
+                </Toolbar>
+                <Nav sysInf={SysInf} srd={SRD} campaign={Campaign} />
               </Drawer>
             </Box>
             <Box
