@@ -56,7 +56,7 @@
     "@thebadams/5e-srd-sdk": "^1.0.2",
     "dnd-sheet-component": "^0.1.4",
     "lexical": "^0.2.9",
-    "markdown-to-jsx": "^7.1.7",
+    "markdown-to-jsx": "^7.4.0",
     "nanoid": "^3.3.4",
     "react": "^18.1.0",
     "react-app-rewired": "^2.2.1",
